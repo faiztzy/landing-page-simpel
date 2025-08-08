@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>HOME | Landing Page</title>
+</head>
+
+<body id="home">
+    <header>
+        <!-- Navigation-->
+        <section class="navigation">
+            <div class="container">
+                <div class="box-navigation animate__animated animate__fadeInDown">
+                    <div class="box">
+                        <h1>Nur Faiz</h1>
+                    </div>
+                    <div class="box menu-navigation">
+                        <ul>
+                            <li>
+                                <i class="ri-home-3-line"></i>
+                                <a href="#home">Beranda</a>
+                            </li>
+                            <li>
+                                <i class="ri-information-line"></i>
+                                <a href="#about">Tentang</a>
+                            </li>
+                            <li>
+                                <i class="ri-dashboard-line"></i>
+                                <a href="#famous">Terkenal</a>
+                            </li>
+                            <li>
+                                <i class="ri-image-line"></i>
+                                <a href="#gallery">Galeri</a>
+                            </li>
+                            <li>
+                                <i class="ri-phone-line"></i>
+                                <a href="#contact">Kontak</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box menu-bar">
+                        <i class="ri-menu-fill" style="color: white"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Navigation-->
+
+        <!-- Hero -->
+        <section class="hero">
+            <h1 class="animate__animated animate__pulse">Gunung Terindah yang ada di Indonesia</h1>
+        </section>
+        <!-- Hero -->
+    </header>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="box-about">
+                <div class="box" data-aos="fade-right" data-aos-duration="1000">
+                    <h1>Gunung</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint dolorem ab accusamus vel incidunt
+                        earum, nobis aperiam eum debitis eius rerum officia voluptatem doloremque eos. Modi porro sed
+                        rerum corporis!</p>
+                </div>
+                <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="./image/merbabu.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About -->
+
+    <!-- Famous -->
+    <section class="famous" id="famous">
+        <div class="container">
+            <div class="box-famous">
+                <div class="box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
+                    <img src="./image/rinjani.jpg" alt="">
+                    <h1>Gunung Rinjani</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, architecto quo mollitia
+                        cupiditate accusamus cumque?</p>
+                </div>
+                <div class="box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+                    <img src="./image/ranu kumbolo.jpg" alt="">
+                    <h1>Gunung Semeru</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, architecto quo mollitia
+                        cupiditate accusamus cumque?</p>
+                </div>
+                <div class="box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
+                    <img src="./image/bromo.jpg" alt="">
+                    <h1>Gunung Bromo</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, architecto quo mollitia
+                        cupiditate accusamus cumque?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Famous -->
+
+    <!-- Galeri -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="box-gallery">
+                <img src="./image/1.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
+                <img src="./image/2.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+                <img src="./image/3.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
+                <img src="./image/4.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700">
+                <img src="./image/5.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="900">
+                <img src="./image/6.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1100">
+            </div>
+        </div>
+    </section>
+    <!-- Galeri -->
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="box-contact">
+                <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">Kontak</h1>
+                <form action="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
+                    <table>
+                        <tr>
+                            <td><label for="name">Nama</label></td>
+                            <td><input type="text" id="name" name="name" placeholder="Masukan Nama" autocomplete="off">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email</label></td>
+                            <td><input type="email" id="email" name="email" placeholder="Masukan Email"
+                                    autocomplete="off"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="message">Pesan</label></td>
+                            <td><textarea name="message" id="message" placeholder="Masukan Pesan..."
+                                    autocomplete="off"></textarea></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025. Nur Faiz Darmahidayanto. All rights reserved.</p>
+    </footer>
+    <!-- Footer -->
+
+    <script src="./dist/js/script.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
